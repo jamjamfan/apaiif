@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APAIIF | Asia-Pacific AI Industry Federation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; background-color: #020617; color: #f1f5f9; scroll-behavior: smooth; }
+        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+        .gradient-text { background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .feature-card { transition: all 0.3s ease; border: 1px solid rgba(255, 255, 255, 0.05); }
+        .feature-card:hover { border-color: #38bdf8; background: rgba(30, 41, 59, 0.5); transform: translateY(-4px); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 glass py-4 px-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-black tracking-tighter gradient-text">APAIIF</div>
+            <div class="flex items-center space-x-8">
+                <div class="hidden lg:flex space-x-8 text-xs font-bold uppercase tracking-widest text-slate-400">
+                    <a href="#vision" class="hover:text-sky-400">Vision</a>
+                    <a href="#deliverables" class="hover:text-sky-400">Deliverables</a>
+                    <a href="#membership" class="hover:text-sky-400">Membership</a>
+                </div>
+                <div class="flex space-x-3 text-xs border-l border-slate-800 pl-6">
+                    <span class="text-sky-400">EN</span>
+                    <a href="/zh-hk/" class="hover:text-sky-400 text-slate-500">繁中</a>
+                    <a href="/jp/" class="hover:text-sky-400 text-slate-500">JP</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-48 pb-32 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-6xl md:text-8xl font-black mb-8 tracking-tight">Asia-Pacific <span class="gradient-text">AI Industry</span> Federation</h1>
+            <p class="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">Connecting global scholars, industries, and policy-makers to build a governed, deliverable-driven collaboration platform.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6">
+                <a href="#membership" class="bg-sky-600 hover:bg-sky-500 text-white px-12 py-5 rounded-full font-bold transition-all shadow-xl shadow-sky-900/20">Apply for Founding Membership</a>
+                <a href="#vision" class="border border-slate-700 hover:bg-slate-800 px-12 py-5 rounded-full font-bold transition-all">Our Roadmap</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="py-32 px-6 bg-slate-900/20">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-8">Bridging the AI Implementation Gap</h2>
+                <p class="text-slate-400 mb-6 italic border-l-4 border-sky-500 pl-6">"Making Hong Kong the Institutional Protocol Hub connecting Global Innovation with APAC Industry Adoption."</p>
+                <div class="space-y-6 text-slate-300">
+                    <div class="flex gap-4">
+                        <i class="fas fa-check-circle text-sky-500 mt-1"></i>
+                        <p><strong>Deliverable-Driven:</strong> Every collaboration results in frameworks, playbooks, or sandboxes.</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-check-circle text-sky-500 mt-1"></i>
+                        <p><strong>Trustworthy by Design:</strong> Standard alignment, compliance guardrails, and reputation protection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass p-8 rounded-3xl text-center">
+                    <div class="text-4xl font-bold text-sky-400 mb-2">90+</div>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Day Initial Case</p>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center">
+                    <div class="text-4xl font-bold text-sky-400 mb-2">6</div>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Standing Committees</p>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center">
+                    <div class="text-4xl font-bold text-sky-400 mb-2">HQ</div>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Hong Kong</p>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center">
+                    <div class="text-4xl font-bold text-sky-400 mb-2">APAC</div>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Core Focus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deliverables" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold mb-20 text-center uppercase tracking-tighter">Flagship Deliverables</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="feature-card p-10 rounded-3xl">
+                    <h3 class="text-xl font-black mb-6 uppercase tracking-widest text-sky-400">01. White Papers</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Translating global research into actionable APAC AI Adoption Baselines and Sector Playbooks.</p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li>• Trustworthy AI Baseline</li>
+                        <li>• Industry Playbooks</li>
+                        <li>• Policy Briefs</li>
+                    </ul>
+                </div>
+                <div class="feature-card p-10 rounded-3xl">
+                    <h3 class="text-xl font-black mb-6 uppercase tracking-widest text-sky-400">02. Trusted Sandboxes</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Managed POC programs for cross-sector pilots with built-in compliance and IP guardrails.</p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li>• Joint POC Pipelines</li>
+                        <li>• Risk-Managed Trials</li>
+                        <li>• Template Agreements</li>
+                    </ul>
+                </div>
+                <div class="feature-card p-10 rounded-3xl">
+                    <h3 class="text-xl font-black mb-6 uppercase tracking-widest text-sky-400">03. Summit & Convening</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Institutionalizing collaboration through annual summits and quarterly closed-door roundtables.</p>
+                    <ul class="text-xs text-slate-500 space-y-2">
+                        <li>• Flagship APAC Summit</li>
+                        <li>• Executive Roundtables</li>
+                        <li>• Global Matchmaking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-24 border-t border-slate-900 text-center">
+        <div class="text-3xl font-black mb-8 gradient-text">APAIIF</div>
+        <p class="text-slate-500 text-sm max-w-md mx-auto mb-8 uppercase tracking-widest font-bold">Asia-Pacific AI Industry Federation</p>
+        <div class="text-slate-600 text-[10px] uppercase tracking-[0.2em]">
+            © 2026 APAIIF. All Rights Reserved. <br>
+            Hong Kong · Singapore · Tokyo · Seoul · ASEAN
+        </div>
+    </footer>
+
+</body>
+</html>
